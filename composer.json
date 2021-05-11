@@ -1,0 +1,27 @@
+{
+    "name": "dsijak/authman",
+    "description": "Drag 'n' drop user/login/cookie management, role and user-level access control system",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Damir Šijaković",
+            "email": "damir.sijakovic@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {        
+        "files": [
+                "project/Etc/init.php"
+            ],
+        "psr-4": {
+            "Authman\\": "project"
+        }
+    }
+}
+
+
+
+
