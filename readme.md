@@ -79,6 +79,10 @@ Options
 * DS_AM_ON_ERROR_EXCEPTION - throw exception on error
 * DS_AM_LOGIN_EXPIRES_AT - login expires at strtotime() string
 
+### Isn't there an bottleneck/limit for SQLite if site is too busy?
+
+Sqlite should handle up to 100 connections at same time.  
+If you have more then 100 login/logouts at same time, use something else.   
 
 ### API
 
